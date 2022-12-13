@@ -34,7 +34,7 @@ class MyService : Service() {
         coroutineScope.cancel()
     }
 
-    override fun onBind(p0: Intent?): IBinder? {
+    override fun onBind(intent: Intent?): IBinder? {
         TODO("Not yet implemented")
     }
 
